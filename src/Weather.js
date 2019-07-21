@@ -35,7 +35,11 @@ export class WeatherContainer extends React.Component {
   constructor(props){
     super(props);
     this.state = {forecast : null};
-    fetch('https://api.weather.gov/points/43.2532,-76.8507').then( response => {
+    (new Promise((resolve, reject) => {
+      navigator.geolocation.getCurrentPosition(resolve, reject);
+    })).then( position => {
+      return fetch(`https://api.weather.gov/points/${position.coords.latitude},${position.coords.longitude}`)
+    }).then( response => {
       return response.json();
     }).then(response => {
       return fetch(response.properties.forecast);
@@ -43,10 +47,14 @@ export class WeatherContainer extends React.Component {
       return response.json();
     }).then(forecast => {
       this.setState({ forecast :  forecast.properties.periods })
+    }).catch(e => {
+      this.setState({ error : e })
     });
   }
 
   render(){
-    return <WeatherComponent forecast={this.state.forecast}/>;
+    return this.state.error ? 
+      <div>Error loading weather: {this.state.error.message}</div> :
+      <WeatherComponent forecast={this.state.forecast}/>;
   } 
 }
