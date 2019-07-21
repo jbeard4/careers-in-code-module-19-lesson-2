@@ -1,4 +1,5 @@
 import React from 'react';
+import { fetchWeatherForCurrentLocation } from './fetch-weather';
 
 const weatherRowComponents = [
   ({name}) => <td>{name}</td>,
@@ -35,17 +36,7 @@ export class WeatherContainer extends React.Component {
   constructor(props){
     super(props);
     this.state = {forecast : null};
-    (new Promise((resolve, reject) => {
-      navigator.geolocation.getCurrentPosition(resolve, reject);
-    })).then( position => {
-      return fetch(`https://api.weather.gov/points/${position.coords.latitude},${position.coords.longitude}`)
-    }).then( response => {
-      return response.json();
-    }).then(response => {
-      return fetch(response.properties.forecast);
-    }).then(response => {
-      return response.json();
-    }).then(forecast => {
+    fetchWeatherForCurrentLocation().then(forecast => {
       this.setState({ forecast :  forecast.properties.periods })
     }).catch(e => {
       this.setState({ error : e })

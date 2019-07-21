@@ -1,0 +1,841 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test WeatherComponent render 1`] = `
+<table>
+  <tbody>
+    <tr>
+      <td>
+        Today
+      </td>
+      <td>
+        Tonight
+      </td>
+      <td>
+        Monday
+      </td>
+      <td>
+        Monday Night
+      </td>
+      <td>
+        Tuesday
+      </td>
+      <td>
+        Tuesday Night
+      </td>
+      <td>
+        Wednesday
+      </td>
+      <td>
+        Wednesday Night
+      </td>
+      <td>
+        Thursday
+      </td>
+      <td>
+        Thursday Night
+      </td>
+      <td>
+        Friday
+      </td>
+      <td>
+        Friday Night
+      </td>
+      <td>
+        Saturday
+      </td>
+      <td>
+        Saturday Night
+      </td>
+    </tr>
+    <tr>
+      <td />
+      <td />
+      <td />
+      <td />
+      <td />
+      <td />
+      <td />
+      <td />
+      <td />
+      <td />
+      <td />
+      <td />
+      <td />
+      <td />
+    </tr>
+    <tr>
+      <td>
+        82
+        °
+        F
+      </td>
+      <td>
+        67
+        °
+        F
+      </td>
+      <td>
+        74
+        °
+        F
+      </td>
+      <td>
+        62
+        °
+        F
+      </td>
+      <td>
+        75
+        °
+        F
+      </td>
+      <td>
+        60
+        °
+        F
+      </td>
+      <td>
+        74
+        °
+        F
+      </td>
+      <td>
+        60
+        °
+        F
+      </td>
+      <td>
+        79
+        °
+        F
+      </td>
+      <td>
+        63
+        °
+        F
+      </td>
+      <td>
+        82
+        °
+        F
+      </td>
+      <td>
+        66
+        °
+        F
+      </td>
+      <td>
+        84
+        °
+        F
+      </td>
+      <td>
+        68
+        °
+        F
+      </td>
+    </tr>
+    <tr>
+      <td />
+      <td />
+      <td />
+      <td />
+      <td />
+      <td />
+      <td />
+      <td />
+      <td />
+      <td />
+      <td />
+      <td />
+      <td />
+      <td />
+    </tr>
+    <tr>
+      <td>
+        13 to 17 mph
+      </td>
+      <td>
+        3 to 15 mph
+      </td>
+      <td>
+        3 mph
+      </td>
+      <td>
+        2 to 6 mph
+      </td>
+      <td>
+        8 mph
+      </td>
+      <td>
+        2 to 8 mph
+      </td>
+      <td>
+        7 mph
+      </td>
+      <td>
+        3 to 7 mph
+      </td>
+      <td>
+        7 mph
+      </td>
+      <td>
+        6 mph
+      </td>
+      <td>
+        2 to 6 mph
+      </td>
+      <td>
+        1 to 7 mph
+      </td>
+      <td>
+        8 mph
+      </td>
+      <td>
+        3 to 8 mph
+      </td>
+    </tr>
+    <tr>
+      <td>
+        W
+      </td>
+      <td>
+        W
+      </td>
+      <td>
+        NW
+      </td>
+      <td>
+        NW
+      </td>
+      <td>
+        NW
+      </td>
+      <td>
+        W
+      </td>
+      <td>
+        W
+      </td>
+      <td>
+        SW
+      </td>
+      <td>
+        W
+      </td>
+      <td>
+        SW
+      </td>
+      <td>
+        SW
+      </td>
+      <td>
+        S
+      </td>
+      <td>
+        SW
+      </td>
+      <td>
+        S
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <img
+          alt="Mostly Sunny"
+          src="https://api.weather.gov/icons/land/day/sct?size=medium"
+        />
+      </td>
+      <td>
+        <img
+          alt="Partly Cloudy"
+          src="https://api.weather.gov/icons/land/night/sct?size=medium"
+        />
+      </td>
+      <td>
+        <img
+          alt="Chance Rain Showers"
+          src="https://api.weather.gov/icons/land/day/rain_showers,30?size=medium"
+        />
+      </td>
+      <td>
+        <img
+          alt="Chance Rain Showers"
+          src="https://api.weather.gov/icons/land/night/rain_showers,30?size=medium"
+        />
+      </td>
+      <td>
+        <img
+          alt="Mostly Sunny"
+          src="https://api.weather.gov/icons/land/day/sct?size=medium"
+        />
+      </td>
+      <td>
+        <img
+          alt="Mostly Clear"
+          src="https://api.weather.gov/icons/land/night/few?size=medium"
+        />
+      </td>
+      <td>
+        <img
+          alt="Slight Chance Rain Showers"
+          src="https://api.weather.gov/icons/land/day/rain_showers?size=medium"
+        />
+      </td>
+      <td>
+        <img
+          alt="Slight Chance Rain Showers then Partly Cloudy"
+          src="https://api.weather.gov/icons/land/night/rain_showers/sct?size=medium"
+        />
+      </td>
+      <td>
+        <img
+          alt="Chance Showers And Thunderstorms"
+          src="https://api.weather.gov/icons/land/day/tsra_hi,30?size=medium"
+        />
+      </td>
+      <td>
+        <img
+          alt="Mostly Clear"
+          src="https://api.weather.gov/icons/land/night/few?size=medium"
+        />
+      </td>
+      <td>
+        <img
+          alt="Sunny"
+          src="https://api.weather.gov/icons/land/day/few?size=medium"
+        />
+      </td>
+      <td>
+        <img
+          alt="Partly Cloudy"
+          src="https://api.weather.gov/icons/land/night/sct?size=medium"
+        />
+      </td>
+      <td>
+        <img
+          alt="Mostly Sunny"
+          src="https://api.weather.gov/icons/land/day/sct?size=medium"
+        />
+      </td>
+      <td>
+        <img
+          alt="Partly Cloudy"
+          src="https://api.weather.gov/icons/land/night/sct?size=medium"
+        />
+      </td>
+    </tr>
+    <tr>
+      <td>
+        Mostly Sunny
+      </td>
+      <td>
+        Partly Cloudy
+      </td>
+      <td>
+        Chance Rain Showers
+      </td>
+      <td>
+        Chance Rain Showers
+      </td>
+      <td>
+        Mostly Sunny
+      </td>
+      <td>
+        Mostly Clear
+      </td>
+      <td>
+        Slight Chance Rain Showers
+      </td>
+      <td>
+        Slight Chance Rain Showers then Partly Cloudy
+      </td>
+      <td>
+        Chance Showers And Thunderstorms
+      </td>
+      <td>
+        Mostly Clear
+      </td>
+      <td>
+        Sunny
+      </td>
+      <td>
+        Partly Cloudy
+      </td>
+      <td>
+        Mostly Sunny
+      </td>
+      <td>
+        Partly Cloudy
+      </td>
+    </tr>
+    <tr>
+      <td>
+        Mostly sunny, with a high near 82. West wind 13 to 17 mph.
+      </td>
+      <td>
+        Partly cloudy, with a low around 67. West wind 3 to 15 mph.
+      </td>
+      <td>
+        A chance of rain showers after 10am. Mostly cloudy, with a high near 74. Northwest wind around 3 mph. Chance of precipitation is 30%. New rainfall amounts less than a tenth of an inch possible.
+      </td>
+      <td>
+        A chance of rain showers. Mostly cloudy, with a low around 62. Northwest wind 2 to 6 mph. Chance of precipitation is 30%. New rainfall amounts less than a tenth of an inch possible.
+      </td>
+      <td>
+        Mostly sunny, with a high near 75. Northwest wind around 8 mph.
+      </td>
+      <td>
+        Mostly clear, with a low around 60.
+      </td>
+      <td>
+        A slight chance of rain showers. Mostly sunny, with a high near 74.
+      </td>
+      <td>
+        A slight chance of rain showers before 8pm. Partly cloudy, with a low around 60.
+      </td>
+      <td>
+        A chance of showers and thunderstorms. Mostly sunny, with a high near 79. Chance of precipitation is 30%.
+      </td>
+      <td>
+        Mostly clear, with a low around 63.
+      </td>
+      <td>
+        Sunny, with a high near 82.
+      </td>
+      <td>
+        Partly cloudy, with a low around 66.
+      </td>
+      <td>
+        Mostly sunny, with a high near 84.
+      </td>
+      <td>
+        Partly cloudy, with a low around 68.
+      </td>
+    </tr>
+  </tbody>
+</table>
+`;
+
+exports[`Test WeatherContainer successful render 1`] = `
+<p>
+  Loading forecast
+</p>
+`;
+
+exports[`Test WeatherContainer successful render 2`] = `
+<table>
+  <tbody>
+    <tr>
+      <td>
+        Today
+      </td>
+      <td>
+        Tonight
+      </td>
+      <td>
+        Monday
+      </td>
+      <td>
+        Monday Night
+      </td>
+      <td>
+        Tuesday
+      </td>
+      <td>
+        Tuesday Night
+      </td>
+      <td>
+        Wednesday
+      </td>
+      <td>
+        Wednesday Night
+      </td>
+      <td>
+        Thursday
+      </td>
+      <td>
+        Thursday Night
+      </td>
+      <td>
+        Friday
+      </td>
+      <td>
+        Friday Night
+      </td>
+      <td>
+        Saturday
+      </td>
+      <td>
+        Saturday Night
+      </td>
+    </tr>
+    <tr>
+      <td />
+      <td />
+      <td />
+      <td />
+      <td />
+      <td />
+      <td />
+      <td />
+      <td />
+      <td />
+      <td />
+      <td />
+      <td />
+      <td />
+    </tr>
+    <tr>
+      <td>
+        82
+        °
+        F
+      </td>
+      <td>
+        67
+        °
+        F
+      </td>
+      <td>
+        74
+        °
+        F
+      </td>
+      <td>
+        62
+        °
+        F
+      </td>
+      <td>
+        75
+        °
+        F
+      </td>
+      <td>
+        60
+        °
+        F
+      </td>
+      <td>
+        74
+        °
+        F
+      </td>
+      <td>
+        60
+        °
+        F
+      </td>
+      <td>
+        79
+        °
+        F
+      </td>
+      <td>
+        63
+        °
+        F
+      </td>
+      <td>
+        82
+        °
+        F
+      </td>
+      <td>
+        66
+        °
+        F
+      </td>
+      <td>
+        84
+        °
+        F
+      </td>
+      <td>
+        68
+        °
+        F
+      </td>
+    </tr>
+    <tr>
+      <td />
+      <td />
+      <td />
+      <td />
+      <td />
+      <td />
+      <td />
+      <td />
+      <td />
+      <td />
+      <td />
+      <td />
+      <td />
+      <td />
+    </tr>
+    <tr>
+      <td>
+        13 to 17 mph
+      </td>
+      <td>
+        3 to 15 mph
+      </td>
+      <td>
+        3 mph
+      </td>
+      <td>
+        2 to 6 mph
+      </td>
+      <td>
+        8 mph
+      </td>
+      <td>
+        2 to 8 mph
+      </td>
+      <td>
+        7 mph
+      </td>
+      <td>
+        3 to 7 mph
+      </td>
+      <td>
+        7 mph
+      </td>
+      <td>
+        6 mph
+      </td>
+      <td>
+        2 to 6 mph
+      </td>
+      <td>
+        1 to 7 mph
+      </td>
+      <td>
+        8 mph
+      </td>
+      <td>
+        3 to 8 mph
+      </td>
+    </tr>
+    <tr>
+      <td>
+        W
+      </td>
+      <td>
+        W
+      </td>
+      <td>
+        NW
+      </td>
+      <td>
+        NW
+      </td>
+      <td>
+        NW
+      </td>
+      <td>
+        W
+      </td>
+      <td>
+        W
+      </td>
+      <td>
+        SW
+      </td>
+      <td>
+        W
+      </td>
+      <td>
+        SW
+      </td>
+      <td>
+        SW
+      </td>
+      <td>
+        S
+      </td>
+      <td>
+        SW
+      </td>
+      <td>
+        S
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <img
+          alt="Mostly Sunny"
+          src="https://api.weather.gov/icons/land/day/sct?size=medium"
+        />
+      </td>
+      <td>
+        <img
+          alt="Partly Cloudy"
+          src="https://api.weather.gov/icons/land/night/sct?size=medium"
+        />
+      </td>
+      <td>
+        <img
+          alt="Chance Rain Showers"
+          src="https://api.weather.gov/icons/land/day/rain_showers,30?size=medium"
+        />
+      </td>
+      <td>
+        <img
+          alt="Chance Rain Showers"
+          src="https://api.weather.gov/icons/land/night/rain_showers,30?size=medium"
+        />
+      </td>
+      <td>
+        <img
+          alt="Mostly Sunny"
+          src="https://api.weather.gov/icons/land/day/sct?size=medium"
+        />
+      </td>
+      <td>
+        <img
+          alt="Mostly Clear"
+          src="https://api.weather.gov/icons/land/night/few?size=medium"
+        />
+      </td>
+      <td>
+        <img
+          alt="Slight Chance Rain Showers"
+          src="https://api.weather.gov/icons/land/day/rain_showers?size=medium"
+        />
+      </td>
+      <td>
+        <img
+          alt="Slight Chance Rain Showers then Partly Cloudy"
+          src="https://api.weather.gov/icons/land/night/rain_showers/sct?size=medium"
+        />
+      </td>
+      <td>
+        <img
+          alt="Chance Showers And Thunderstorms"
+          src="https://api.weather.gov/icons/land/day/tsra_hi,30?size=medium"
+        />
+      </td>
+      <td>
+        <img
+          alt="Mostly Clear"
+          src="https://api.weather.gov/icons/land/night/few?size=medium"
+        />
+      </td>
+      <td>
+        <img
+          alt="Sunny"
+          src="https://api.weather.gov/icons/land/day/few?size=medium"
+        />
+      </td>
+      <td>
+        <img
+          alt="Partly Cloudy"
+          src="https://api.weather.gov/icons/land/night/sct?size=medium"
+        />
+      </td>
+      <td>
+        <img
+          alt="Mostly Sunny"
+          src="https://api.weather.gov/icons/land/day/sct?size=medium"
+        />
+      </td>
+      <td>
+        <img
+          alt="Partly Cloudy"
+          src="https://api.weather.gov/icons/land/night/sct?size=medium"
+        />
+      </td>
+    </tr>
+    <tr>
+      <td>
+        Mostly Sunny
+      </td>
+      <td>
+        Partly Cloudy
+      </td>
+      <td>
+        Chance Rain Showers
+      </td>
+      <td>
+        Chance Rain Showers
+      </td>
+      <td>
+        Mostly Sunny
+      </td>
+      <td>
+        Mostly Clear
+      </td>
+      <td>
+        Slight Chance Rain Showers
+      </td>
+      <td>
+        Slight Chance Rain Showers then Partly Cloudy
+      </td>
+      <td>
+        Chance Showers And Thunderstorms
+      </td>
+      <td>
+        Mostly Clear
+      </td>
+      <td>
+        Sunny
+      </td>
+      <td>
+        Partly Cloudy
+      </td>
+      <td>
+        Mostly Sunny
+      </td>
+      <td>
+        Partly Cloudy
+      </td>
+    </tr>
+    <tr>
+      <td>
+        Mostly sunny, with a high near 82. West wind 13 to 17 mph.
+      </td>
+      <td>
+        Partly cloudy, with a low around 67. West wind 3 to 15 mph.
+      </td>
+      <td>
+        A chance of rain showers after 10am. Mostly cloudy, with a high near 74. Northwest wind around 3 mph. Chance of precipitation is 30%. New rainfall amounts less than a tenth of an inch possible.
+      </td>
+      <td>
+        A chance of rain showers. Mostly cloudy, with a low around 62. Northwest wind 2 to 6 mph. Chance of precipitation is 30%. New rainfall amounts less than a tenth of an inch possible.
+      </td>
+      <td>
+        Mostly sunny, with a high near 75. Northwest wind around 8 mph.
+      </td>
+      <td>
+        Mostly clear, with a low around 60.
+      </td>
+      <td>
+        A slight chance of rain showers. Mostly sunny, with a high near 74.
+      </td>
+      <td>
+        A slight chance of rain showers before 8pm. Partly cloudy, with a low around 60.
+      </td>
+      <td>
+        A chance of showers and thunderstorms. Mostly sunny, with a high near 79. Chance of precipitation is 30%.
+      </td>
+      <td>
+        Mostly clear, with a low around 63.
+      </td>
+      <td>
+        Sunny, with a high near 82.
+      </td>
+      <td>
+        Partly cloudy, with a low around 66.
+      </td>
+      <td>
+        Mostly sunny, with a high near 84.
+      </td>
+      <td>
+        Partly cloudy, with a low around 68.
+      </td>
+    </tr>
+  </tbody>
+</table>
+`;

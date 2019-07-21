@@ -1,0 +1,92 @@
+{
+    "@context": [
+        "https://raw.githubusercontent.com/geojson/geojson-ld/master/contexts/geojson-base.jsonld",
+        {
+            "wx": "https://api.weather.gov/ontology#",
+            "s": "https://schema.org/",
+            "geo": "http://www.opengis.net/ont/geosparql#",
+            "unit": "http://codes.wmo.int/common/unit/",
+            "@vocab": "https://api.weather.gov/ontology#",
+            "geometry": {
+                "@id": "s:GeoCoordinates",
+                "@type": "geo:wktLiteral"
+            },
+            "city": "s:addressLocality",
+            "state": "s:addressRegion",
+            "distance": {
+                "@id": "s:Distance",
+                "@type": "s:QuantitativeValue"
+            },
+            "bearing": {
+                "@type": "s:QuantitativeValue"
+            },
+            "value": {
+                "@id": "s:value"
+            },
+            "unitCode": {
+                "@id": "s:unitCode",
+                "@type": "@id"
+            },
+            "forecastOffice": {
+                "@type": "@id"
+            },
+            "forecastGridData": {
+                "@type": "@id"
+            },
+            "publicZone": {
+                "@type": "@id"
+            },
+            "county": {
+                "@type": "@id"
+            }
+        }
+    ],
+    "id": "https://api.weather.gov/points/43.2532,-76.8507",
+    "type": "Feature",
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            -76.850700000000003,
+            43.2532
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/points/43.2532,-76.8507",
+        "@type": "wx:Point",
+        "cwa": "BUF",
+        "forecastOffice": "https://api.weather.gov/offices/BUF",
+        "gridX": 100,
+        "gridY": 71,
+        "forecast": "https://api.weather.gov/gridpoints/BUF/100,71/forecast",
+        "forecastHourly": "https://api.weather.gov/gridpoints/BUF/100,71/forecast/hourly",
+        "forecastGridData": "https://api.weather.gov/gridpoints/BUF/100,71",
+        "observationStations": "https://api.weather.gov/gridpoints/BUF/100,71/stations",
+        "relativeLocation": {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -76.812133000000003,
+                    43.222785000000002
+                ]
+            },
+            "properties": {
+                "city": "Wolcott",
+                "state": "NY",
+                "distance": {
+                    "value": 4604.1911625444563,
+                    "unitCode": "unit:m"
+                },
+                "bearing": {
+                    "value": 317,
+                    "unitCode": "unit:degrees_true"
+                }
+            }
+        },
+        "forecastZone": "https://api.weather.gov/zones/forecast/NYZ004",
+        "county": "https://api.weather.gov/zones/county/NYC117",
+        "fireWeatherZone": "https://api.weather.gov/zones/fire/NYZ004",
+        "timeZone": "America/New_York",
+        "radarStation": "KTYX"
+    }
+}
